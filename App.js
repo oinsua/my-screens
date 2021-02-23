@@ -3,13 +3,15 @@ import { StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 
 
+
 //Importar el componente Stack con todas las Screens
-import StackScreens from './components/StackScreens';
+//import StackScreens from './components/StackScreens';
+import DrawerScreens from './components/DrawerScreens';
 
 export default function App() {
   return (
     <NavigationContainer style={styles.container}>
-      <StackScreens />
+      <DrawerScreens />
     </NavigationContainer>
   );
 }
